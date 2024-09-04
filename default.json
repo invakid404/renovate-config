@@ -19,9 +19,7 @@
       "hostType": "npm",
       "authType": "Basic",
       "matchHost": "npm.pkg.github.com",
-      "encrypted": {
-        "token": "wcFMA/xDdHCJBTolAQ/+Mc98rH754dEzBLrae49CP7kxWPNkZ5n7736bDYmVn6K5cuWkoRfJMPGkMr+mRgKqcQHeCdmFEjoB/kLrisZ8r299B/Kd2ub+WJKA1WYuMvwyGvinEnkjcIAGTJ/W5lW/+pii2c8TZ0V5JtCRchgRXfQIBb9+BKAPfe1BJ1FOCExloLNi0S5HP+lIsYgY9Hb9EOFWFMBoMe1lioo7Dab5YU/MlGAkS/Sn76zYwOazsvd3RFWgay4G9MAY569Rv8wzmHgKHjjaKuLiJ0/8o+w1vwNU5riJ7xOf1tk6bJsgiKzpSXWPK7RwNaRkD0lWM4CyL0SFUmiB3Q31NiLtDielzUeOT/empRoGmWe4i6fJCbejC2JZ4za4SLOdQKL8h+s5EmW+A/C2vWZAHXiF1o8QNCvWr2X2iNlSoSmLMjGoA4xZRi22F4XBwJf2sOgNIS4DLNMHrP7XoiVJ1eZov8ap8+6WWWCalMRVnjriJWGfRVPXyl4ORbPbhy5umZ0pg+Y7RajjZW5U14DN13FEfRTxUMSkHMjxzzhxenNAkdXQJ68UxUHWtCtSl0b1pBbU44QHcdO2UmbAxIUX55lGlC8B0stzK+rJxTYXmlPMOATcsHN58kcVAAVag5E8Fcv47SY9tl4iElnwpyjmCCoy85jGw4Wa8IqDizv8Q5vK4vmLmjrSlQH2AqIddXyJykKHixRD7gRmKiaecZcTdCglcLPWkzSsXyLPE1MoqoNfrgVfApCaKKHRoUmbAGNI3z3B39RxQqIjDkipD6VqKzbZEg/hb2lovI+wimQqeGhByznjrnuJ4wTmP2dJMygvA6k0MWnAfV93jpvFi3wsVJjbVV7P+PzkVcvImN60WD6P25zLwMPeJnfpmpnB"
-      }
+      "token": "{{ secrets.GITHUB_NPM_TOKEN }}"
     }
   ]
 }
